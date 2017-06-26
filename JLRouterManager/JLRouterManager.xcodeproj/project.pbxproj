@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BF6836E01B24A428303277B /* Pods_JLRouterManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10F928B397B5F1E8ADA33D1 /* Pods_JLRouterManager.framework */; };
+		EC7506391F009F5600CB5DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7506381F009F5600CB5DEC /* main.m */; };
+		EC75063C1F009F5600CB5DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC75063B1F009F5600CB5DEC /* AppDelegate.m */; };
+		EC75063F1F009F5600CB5DEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC75063E1F009F5600CB5DEC /* ViewController.m */; };
+		EC7506421F009F5600CB5DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7506401F009F5600CB5DEC /* Main.storyboard */; };
+		EC7506441F009F5600CB5DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7506431F009F5600CB5DEC /* Assets.xcassets */; };
+		EC7506471F009F5600CB5DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7506451F009F5600CB5DEC /* LaunchScreen.storyboard */; };
+		EC7506521F009F5600CB5DEC /* JLRouterManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7506511F009F5600CB5DEC /* JLRouterManagerTests.m */; };
+		EC75065D1F009F5600CB5DEC /* JLRouterManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC75065C1F009F5600CB5DEC /* JLRouterManagerUITests.m */; };
+		EC7506751F009FE000CB5DEC /* AVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7506721F009FE000CB5DEC /* AVC.m */; };
+		EC7506761F009FE000CB5DEC /* BVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7506741F009FE000CB5DEC /* BVC.m */; };
+		EC75067C1F00A02400CB5DEC /* JLRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7506791F00A02400CB5DEC /* JLRouterManager.m */; };
+		EC75067D1F00A02400CB5DEC /* RouterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC75067B1F00A02400CB5DEC /* RouterModel.m */; };
+		ECDF5FA71F00A15100C4468D /* UIViewController+getCurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDF5FA61F00A15100C4468D /* UIViewController+getCurrentVC.m */; };
+		ECDF5FAA1F00A1A000C4468D /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDF5FA91F00A1A000C4468D /* BaseVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC75064E1F009F5600CB5DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC75062C1F009F5600CB5DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7506331F009F5600CB5DEC;
+			remoteInfo = JLRouterManager;
+		};
+		EC7506591F009F5600CB5DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC75062C1F009F5600CB5DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7506331F009F5600CB5DEC;
+			remoteInfo = JLRouterManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D07347BFD83781A25EBEAE9 /* Pods-JLRouterManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRouterManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLRouterManager/Pods-JLRouterManager.release.xcconfig"; sourceTree = "<group>"; };
+		6BC3454FDC21881E5F480D47 /* Pods-JLRouterManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRouterManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLRouterManager/Pods-JLRouterManager.debug.xcconfig"; sourceTree = "<group>"; };
+		B10F928B397B5F1E8ADA33D1 /* Pods_JLRouterManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLRouterManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7506341F009F5600CB5DEC /* JLRouterManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLRouterManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7506381F009F5600CB5DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC75063A1F009F5600CB5DEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC75063B1F009F5600CB5DEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC75063D1F009F5600CB5DEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC75063E1F009F5600CB5DEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC7506411F009F5600CB5DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC7506431F009F5600CB5DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7506461F009F5600CB5DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC7506481F009F5600CB5DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC75064D1F009F5600CB5DEC /* JLRouterManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLRouterManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7506511F009F5600CB5DEC /* JLRouterManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLRouterManagerTests.m; sourceTree = "<group>"; };
+		EC7506531F009F5600CB5DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7506581F009F5600CB5DEC /* JLRouterManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLRouterManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC75065C1F009F5600CB5DEC /* JLRouterManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLRouterManagerUITests.m; sourceTree = "<group>"; };
+		EC75065E1F009F5600CB5DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7506711F009FE000CB5DEC /* AVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVC.h; sourceTree = "<group>"; };
+		EC7506721F009FE000CB5DEC /* AVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVC.m; sourceTree = "<group>"; };
+		EC7506731F009FE000CB5DEC /* BVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVC.h; sourceTree = "<group>"; };
+		EC7506741F009FE000CB5DEC /* BVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVC.m; sourceTree = "<group>"; };
+		EC7506781F00A02400CB5DEC /* JLRouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRouterManager.h; sourceTree = "<group>"; };
+		EC7506791F00A02400CB5DEC /* JLRouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRouterManager.m; sourceTree = "<group>"; };
+		EC75067A1F00A02400CB5DEC /* RouterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterModel.h; sourceTree = "<group>"; };
+		EC75067B1F00A02400CB5DEC /* RouterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterModel.m; sourceTree = "<group>"; };
+		ECDF5FA51F00A15100C4468D /* UIViewController+getCurrentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+getCurrentVC.h"; sourceTree = "<group>"; };
+		ECDF5FA61F00A15100C4468D /* UIViewController+getCurrentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+getCurrentVC.m"; sourceTree = "<group>"; };
+		ECDF5FA81F00A1A000C4468D /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		ECDF5FA91F00A1A000C4468D /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		ECDF5FAB1F00A22100C4468D /* JlRouterManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JlRouterManager-Prefix.pch"; path = "../JlRouterManager-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7506311F009F5600CB5DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF6836E01B24A428303277B /* Pods_JLRouterManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC75064A1F009F5600CB5DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7506551F009F5600CB5DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BDDE781A7459B0C4F3FA200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10F928B397B5F1E8ADA33D1 /* Pods_JLRouterManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		372E9EE92A3B72930A08548E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BC3454FDC21881E5F480D47 /* Pods-JLRouterManager.debug.xcconfig */,
+				1D07347BFD83781A25EBEAE9 /* Pods-JLRouterManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC75062B1F009F5600CB5DEC = {
+			isa = PBXGroup;
+			children = (
+				EC7506361F009F5600CB5DEC /* JLRouterManager */,
+				EC7506501F009F5600CB5DEC /* JLRouterManagerTests */,
+				EC75065B1F009F5600CB5DEC /* JLRouterManagerUITests */,
+				EC7506351F009F5600CB5DEC /* Products */,
+				372E9EE92A3B72930A08548E /* Pods */,
+				1BDDE781A7459B0C4F3FA200 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7506351F009F5600CB5DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7506341F009F5600CB5DEC /* JLRouterManager.app */,
+				EC75064D1F009F5600CB5DEC /* JLRouterManagerTests.xctest */,
+				EC7506581F009F5600CB5DEC /* JLRouterManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7506361F009F5600CB5DEC /* JLRouterManager */ = {
+			isa = PBXGroup;
+			children = (
+				ECDF5FA41F00A15100C4468D /* UIViewController+getCurrentVC */,
+				EC7506771F00A02400CB5DEC /* JLRouterManagetTool */,
+				EC7506701F009FE000CB5DEC /* TestVC */,
+				EC75063A1F009F5600CB5DEC /* AppDelegate.h */,
+				EC75063B1F009F5600CB5DEC /* AppDelegate.m */,
+				EC75063D1F009F5600CB5DEC /* ViewController.h */,
+				EC75063E1F009F5600CB5DEC /* ViewController.m */,
+				EC7506401F009F5600CB5DEC /* Main.storyboard */,
+				EC7506431F009F5600CB5DEC /* Assets.xcassets */,
+				EC7506451F009F5600CB5DEC /* LaunchScreen.storyboard */,
+				EC7506481F009F5600CB5DEC /* Info.plist */,
+				EC7506371F009F5600CB5DEC /* Supporting Files */,
+			);
+			path = JLRouterManager;
+			sourceTree = "<group>";
+		};
+		EC7506371F009F5600CB5DEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDF5FAB1F00A22100C4468D /* JlRouterManager-Prefix.pch */,
+				EC7506381F009F5600CB5DEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC7506501F009F5600CB5DEC /* JLRouterManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7506511F009F5600CB5DEC /* JLRouterManagerTests.m */,
+				EC7506531F009F5600CB5DEC /* Info.plist */,
+			);
+			path = JLRouterManagerTests;
+			sourceTree = "<group>";
+		};
+		EC75065B1F009F5600CB5DEC /* JLRouterManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC75065C1F009F5600CB5DEC /* JLRouterManagerUITests.m */,
+				EC75065E1F009F5600CB5DEC /* Info.plist */,
+			);
+			path = JLRouterManagerUITests;
+			sourceTree = "<group>";
+		};
+		EC7506701F009FE000CB5DEC /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECDF5FA81F00A1A000C4468D /* BaseVC.h */,
+				ECDF5FA91F00A1A000C4468D /* BaseVC.m */,
+				EC7506711F009FE000CB5DEC /* AVC.h */,
+				EC7506721F009FE000CB5DEC /* AVC.m */,
+				EC7506731F009FE000CB5DEC /* BVC.h */,
+				EC7506741F009FE000CB5DEC /* BVC.m */,
+			);
+			path = TestVC;
+			sourceTree = "<group>";
+		};
+		EC7506771F00A02400CB5DEC /* JLRouterManagetTool */ = {
+			isa = PBXGroup;
+			children = (
+				EC7506781F00A02400CB5DEC /* JLRouterManager.h */,
+				EC7506791F00A02400CB5DEC /* JLRouterManager.m */,
+				EC75067A1F00A02400CB5DEC /* RouterModel.h */,
+				EC75067B1F00A02400CB5DEC /* RouterModel.m */,
+			);
+			path = JLRouterManagetTool;
+			sourceTree = "<group>";
+		};
+		ECDF5FA41F00A15100C4468D /* UIViewController+getCurrentVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECDF5FA51F00A15100C4468D /* UIViewController+getCurrentVC.h */,
+				ECDF5FA61F00A15100C4468D /* UIViewController+getCurrentVC.m */,
+			);
+			path = "UIViewController+getCurrentVC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7506331F009F5600CB5DEC /* JLRouterManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7506611F009F5600CB5DEC /* Build configuration list for PBXNativeTarget "JLRouterManager" */;
+			buildPhases = (
+				78340CF2933309FC7D6E3513 /* [CP] Check Pods Manifest.lock */,
+				EC7506301F009F5600CB5DEC /* Sources */,
+				EC7506311F009F5600CB5DEC /* Frameworks */,
+				EC7506321F009F5600CB5DEC /* Resources */,
+				60DF74B091F05CFD3DCA16F2 /* [CP] Embed Pods Frameworks */,
+				73BE5D46A886C7D71203ABF4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLRouterManager;
+			productName = JLRouterManager;
+			productReference = EC7506341F009F5600CB5DEC /* JLRouterManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC75064C1F009F5600CB5DEC /* JLRouterManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7506641F009F5600CB5DEC /* Build configuration list for PBXNativeTarget "JLRouterManagerTests" */;
+			buildPhases = (
+				EC7506491F009F5600CB5DEC /* Sources */,
+				EC75064A1F009F5600CB5DEC /* Frameworks */,
+				EC75064B1F009F5600CB5DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC75064F1F009F5600CB5DEC /* PBXTargetDependency */,
+			);
+			name = JLRouterManagerTests;
+			productName = JLRouterManagerTests;
+			productReference = EC75064D1F009F5600CB5DEC /* JLRouterManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC7506571F009F5600CB5DEC /* JLRouterManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7506671F009F5600CB5DEC /* Build configuration list for PBXNativeTarget "JLRouterManagerUITests" */;
+			buildPhases = (
+				EC7506541F009F5600CB5DEC /* Sources */,
+				EC7506551F009F5600CB5DEC /* Frameworks */,
+				EC7506561F009F5600CB5DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC75065A1F009F5600CB5DEC /* PBXTargetDependency */,
+			);
+			name = JLRouterManagerUITests;
+			productName = JLRouterManagerUITests;
+			productReference = EC7506581F009F5600CB5DEC /* JLRouterManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC75062C1F009F5600CB5DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lsh726;
+				TargetAttributes = {
+					EC7506331F009F5600CB5DEC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EC75064C1F009F5600CB5DEC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC7506331F009F5600CB5DEC;
+					};
+					EC7506571F009F5600CB5DEC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC7506331F009F5600CB5DEC;
+					};
+				};
+			};
+			buildConfigurationList = EC75062F1F009F5600CB5DEC /* Build configuration list for PBXProject "JLRouterManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC75062B1F009F5600CB5DEC;
+			productRefGroup = EC7506351F009F5600CB5DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7506331F009F5600CB5DEC /* JLRouterManager */,
+				EC75064C1F009F5600CB5DEC /* JLRouterManagerTests */,
+				EC7506571F009F5600CB5DEC /* JLRouterManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7506321F009F5600CB5DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7506471F009F5600CB5DEC /* LaunchScreen.storyboard in Resources */,
+				EC7506441F009F5600CB5DEC /* Assets.xcassets in Resources */,
+				EC7506421F009F5600CB5DEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC75064B1F009F5600CB5DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7506561F009F5600CB5DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60DF74B091F05CFD3DCA16F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLRouterManager/Pods-JLRouterManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73BE5D46A886C7D71203ABF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLRouterManager/Pods-JLRouterManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78340CF2933309FC7D6E3513 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7506301F009F5600CB5DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC75067D1F00A02400CB5DEC /* RouterModel.m in Sources */,
+				EC75063F1F009F5600CB5DEC /* ViewController.m in Sources */,
+				EC75063C1F009F5600CB5DEC /* AppDelegate.m in Sources */,
+				ECDF5FAA1F00A1A000C4468D /* BaseVC.m in Sources */,
+				EC7506751F009FE000CB5DEC /* AVC.m in Sources */,
+				EC7506391F009F5600CB5DEC /* main.m in Sources */,
+				EC75067C1F00A02400CB5DEC /* JLRouterManager.m in Sources */,
+				ECDF5FA71F00A15100C4468D /* UIViewController+getCurrentVC.m in Sources */,
+				EC7506761F009FE000CB5DEC /* BVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7506491F009F5600CB5DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7506521F009F5600CB5DEC /* JLRouterManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7506541F009F5600CB5DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC75065D1F009F5600CB5DEC /* JLRouterManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC75064F1F009F5600CB5DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7506331F009F5600CB5DEC /* JLRouterManager */;
+			targetProxy = EC75064E1F009F5600CB5DEC /* PBXContainerItemProxy */;
+		};
+		EC75065A1F009F5600CB5DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7506331F009F5600CB5DEC /* JLRouterManager */;
+			targetProxy = EC7506591F009F5600CB5DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC7506401F009F5600CB5DEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7506411F009F5600CB5DEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC7506451F009F5600CB5DEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7506461F009F5600CB5DEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC75065F1F009F5600CB5DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7506601F009F5600CB5DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7506621F009F5600CB5DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC3454FDC21881E5F480D47 /* Pods-JLRouterManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JlRouterManager-Prefix.pch";
+				INFOPLIST_FILE = JLRouterManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsh726.JLRouterManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC7506631F009F5600CB5DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D07347BFD83781A25EBEAE9 /* Pods-JLRouterManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JlRouterManager-Prefix.pch";
+				INFOPLIST_FILE = JLRouterManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsh726.JLRouterManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC7506651F009F5600CB5DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLRouterManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsh726.JLRouterManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLRouterManager.app/JLRouterManager";
+			};
+			name = Debug;
+		};
+		EC7506661F009F5600CB5DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLRouterManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsh726.JLRouterManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLRouterManager.app/JLRouterManager";
+			};
+			name = Release;
+		};
+		EC7506681F009F5600CB5DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLRouterManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsh726.JLRouterManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLRouterManager;
+			};
+			name = Debug;
+		};
+		EC7506691F009F5600CB5DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLRouterManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsh726.JLRouterManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLRouterManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC75062F1F009F5600CB5DEC /* Build configuration list for PBXProject "JLRouterManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC75065F1F009F5600CB5DEC /* Debug */,
+				EC7506601F009F5600CB5DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7506611F009F5600CB5DEC /* Build configuration list for PBXNativeTarget "JLRouterManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7506621F009F5600CB5DEC /* Debug */,
+				EC7506631F009F5600CB5DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7506641F009F5600CB5DEC /* Build configuration list for PBXNativeTarget "JLRouterManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7506651F009F5600CB5DEC /* Debug */,
+				EC7506661F009F5600CB5DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7506671F009F5600CB5DEC /* Build configuration list for PBXNativeTarget "JLRouterManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7506681F009F5600CB5DEC /* Debug */,
+				EC7506691F009F5600CB5DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC75062C1F009F5600CB5DEC /* Project object */;
+}

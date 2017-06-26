@@ -1,0 +1,18 @@
+PODS:
+  - JLRoutes (2.0.5)
+  - Masonry (0.6.4)
+  - ReactiveObjC (3.0.0)
+
+DEPENDENCIES:
+  - JLRoutes (~> 2.0.5)
+  - Masonry (~> 0.6.4)
+  - ReactiveObjC
+
+SPEC CHECKSUMS:
+  JLRoutes: 2a5ee61d739b51a98c9d8112bee5149a19de8854
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+
+PODFILE CHECKSUM: 200af4159c70c00ce8a658f23f7857d8ac5b0808
+
+COCOAPODS: 1.2.1
